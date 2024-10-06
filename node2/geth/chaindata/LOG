@@ -1,0 +1,32 @@
+=============== Aug 12, 2024 (BST) ===============
+18:40:22.020726 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:40:22.067779 db@open opening
+18:40:22.075568 version@stat F·[] S·0B[] Sc·[]
+18:40:22.081991 db@janitor F·2 G·0
+18:40:22.088684 db@open done T·20.9052ms
+18:40:22.721958 db@close closing
+18:40:22.735371 db@close done T·13.4125ms
+=============== Aug 12, 2024 (BST) ===============
+19:12:51.541107 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:12:51.541107 version@stat F·[] S·0B[] Sc·[]
+19:12:51.541107 db@open opening
+19:12:51.541107 journal@recovery F·1
+19:12:51.543074 journal@recovery recovering @1
+19:12:51.557328 memdb@flush created L0@2 N·623 S·52KiB "\x024X..!\r\xf7,v612":"\xfe\x88\xcf..H\xef\xcc,v362"
+19:12:51.557832 version@stat F·[1] S·52KiB[52KiB] Sc·[0.25]
+19:12:51.579206 db@janitor F·3 G·0
+19:12:51.579741 db@open done T·38.6344ms
+19:12:53.952772 db@close closing
+19:12:53.953624 db@close done T·334.3µs
+=============== Aug 12, 2024 (BST) ===============
+19:17:26.912946 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:17:26.913238 version@stat F·[1] S·52KiB[52KiB] Sc·[0.25]
+19:17:26.913238 db@open opening
+19:17:26.913238 journal@recovery F·1
+19:17:26.938886 journal@recovery recovering @3
+19:17:26.969424 memdb@flush created L0@5 N·266 S·11KiB "Dat..ion,v626":"unc..own,v890"
+19:17:26.970555 version@stat F·[2] S·63KiB[63KiB] Sc·[0.50]
+19:17:26.990769 db@janitor F·4 G·0
+19:17:26.990769 db@open done T·77.5305ms
+20:59:01.677909 db@close closing
+20:59:01.685885 db@close done T·7.9761ms
