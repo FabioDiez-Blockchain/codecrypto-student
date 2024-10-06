@@ -1,0 +1,36 @@
+=============== Jul 20, 2024 (UTC) ===============
+23:10:07.990640 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:10:08.033729 db@open opening
+23:10:08.036890 version@stat F·[] S·0B[] Sc·[]
+23:10:08.039864 db@janitor F·2 G·0
+23:10:08.040042 db@open done T·6.152398ms
+23:10:08.100758 db@close closing
+23:10:08.101914 db@close done T·1.151004ms
+=============== Jul 20, 2024 (UTC) ===============
+23:11:03.871672 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:11:03.876768 version@stat F·[] S·0B[] Sc·[]
+23:11:03.877212 db@open opening
+23:11:03.878437 journal@recovery F·1
+23:11:03.880687 journal@recovery recovering @1
+23:11:03.886449 memdb@flush created L0@2 N·15 S·1KiB "HgB..\xf5ą,v8":"Ӑ1..\xd6\xc0\x8e,v1"
+23:11:03.889688 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+23:11:03.904264 db@janitor F·3 G·0
+23:11:03.904431 db@open done T·27.081484ms
+=============== Aug 7, 2024 (UTC) ===============
+22:01:20.635472 memdb@flush N·1366278 S·127MiB
+22:04:21.939410 memdb@flush created L0@6 N·1366278 S·58MiB "B\x00\x00..\xd7ԙ,v39273":"unc..own,v26"
+22:04:21.946909 version@stat F·[2] S·58MiB[58MiB] Sc·[0.50]
+22:04:21.956541 memdb@flush committed F·1 T·3m1.372929963s
+22:04:21.957796 journal@remove removed @3
+=============== Aug 12, 2024 (UTC) ===============
+17:25:48.470117 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:25:48.900782 version@stat F·[2] S·58MiB[58MiB] Sc·[0.50]
+17:25:48.959494 db@open opening
+17:25:49.063227 journal@recovery F·1
+17:25:49.081434 journal@recovery recovering @5
+17:25:57.042644 memdb@flush created L0@7 N·358991 S·14MiB "B\x00\x00..o\xb0\xa4,v1398035":"unc..own,v1366433"
+17:25:57.050992 version@stat F·[3] S·73MiB[73MiB] Sc·[0.75]
+17:25:57.068516 db@janitor F·5 G·0
+17:25:57.068680 db@open done T·8.092858901s
+18:10:07.207246 db@close closing
+18:10:07.278246 db@close done T·70.993176ms
